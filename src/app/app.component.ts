@@ -6,5 +6,6 @@ import { Component, VERSION } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = 'VivianApp ';
+  name = 'Vivian da Cunha ';
+  nascimento = 1975;
 }
