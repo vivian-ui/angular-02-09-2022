@@ -11,9 +11,17 @@ export class AppComponent {
   counter = 0;
   timer = setInterval(() => {
     this.counter = this.counter + 1;
-  });
+  }, 1000);
 
   getIdade() {
     return 2022 - this.nascimento;
+  }
+
+  getMinutos() {
+    return this.counter / 60;
+  }
+
+  getSegundos() {
+    return Math.trunc(this.counter % 60);
   }
 }
